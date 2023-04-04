@@ -8,6 +8,7 @@
                 <title>page de test</title>
         </head>
         <body>
-                <?php printf("<h1>Hello ".$_SERVER["REMOTE_ADDR"]); ?>
+		<?php printf("<h1>Hello ".$_SERVER["REMOTE_ADDR"]); ?><br>
+		<a href="logout.php">Disconnect</a>
         </body>
 </html>
